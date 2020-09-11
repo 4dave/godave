@@ -5,3 +5,9 @@ const server = http.createServer((req, res) => {
 })
 const PORT = process.env.PORT || 8080
 server.listen(PORT, () => console.log('Listening'))
+
+// for Dockerfile:
+//FROM node:13-slim
+//WORKDIR /app
+//ADD . /app
+//CMD node server.js

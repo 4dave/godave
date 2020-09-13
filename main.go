@@ -6,7 +6,7 @@ import (
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>Hello World 👋🌍 - gRun enabled! 👍 hi dave</h1>")
+	fmt.Fprintf(w, "<h1>Hello World 👋🌍 - brought to you by Google Cloud Build and Cloud Run! ☺️</h1>")
 }
 
 func about(w http.ResponseWriter, r *http.Request) {
